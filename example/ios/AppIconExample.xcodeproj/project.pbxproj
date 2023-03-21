@@ -12,6 +12,12 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		4EB87F9529CA24C400D82618 /* Icon-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB87F8F29CA24C300D82618 /* Icon-2@2x.png */; };
+		4EB87F9629CA24C400D82618 /* Icon-3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB87F9029CA24C400D82618 /* Icon-3@2x.png */; };
+		4EB87F9729CA24C400D82618 /* Icon-2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB87F9129CA24C400D82618 /* Icon-2@3x.png */; };
+		4EB87F9829CA24C400D82618 /* Icon-3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB87F9229CA24C400D82618 /* Icon-3@3x.png */; };
+		4EB87F9929CA24C400D82618 /* Icon-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB87F9329CA24C400D82618 /* Icon-1@2x.png */; };
+		4EB87F9A29CA24C400D82618 /* Icon-1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB87F9429CA24C400D82618 /* Icon-1@3x.png */; };
 		7699B88040F8A987B510C191 /* libPods-AppIconExample-AppIconExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-AppIconExample-AppIconExampleTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -38,6 +44,12 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AppIconExample/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-AppIconExample-AppIconExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppIconExample-AppIconExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-AppIconExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppIconExample.debug.xcconfig"; path = "Target Support Files/Pods-AppIconExample/Pods-AppIconExample.debug.xcconfig"; sourceTree = "<group>"; };
+		4EB87F8F29CA24C300D82618 /* Icon-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-2@2x.png"; sourceTree = "<group>"; };
+		4EB87F9029CA24C400D82618 /* Icon-3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-3@2x.png"; sourceTree = "<group>"; };
+		4EB87F9129CA24C400D82618 /* Icon-2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-2@3x.png"; sourceTree = "<group>"; };
+		4EB87F9229CA24C400D82618 /* Icon-3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-3@3x.png"; sourceTree = "<group>"; };
+		4EB87F9329CA24C400D82618 /* Icon-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-1@2x.png"; sourceTree = "<group>"; };
+		4EB87F9429CA24C400D82618 /* Icon-1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-1@3x.png"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-AppIconExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppIconExample.release.xcconfig"; path = "Target Support Files/Pods-AppIconExample/Pods-AppIconExample.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-AppIconExample-AppIconExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppIconExample-AppIconExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-AppIconExample-AppIconExampleTests/Pods-AppIconExample-AppIconExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-AppIconExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppIconExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +98,7 @@
 		13B07FAE1A68108700A75B9A /* AppIconExample */ = {
 			isa = PBXGroup;
 			children = (
+				4EB87F8E29CA234200D82618 /* AppIcons */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -104,6 +117,19 @@
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-AppIconExample-AppIconExampleTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EB87F8E29CA234200D82618 /* AppIcons */ = {
+			isa = PBXGroup;
+			children = (
+				4EB87F9329CA24C400D82618 /* Icon-1@2x.png */,
+				4EB87F9429CA24C400D82618 /* Icon-1@3x.png */,
+				4EB87F8F29CA24C300D82618 /* Icon-2@2x.png */,
+				4EB87F9129CA24C400D82618 /* Icon-2@3x.png */,
+				4EB87F9029CA24C400D82618 /* Icon-3@2x.png */,
+				4EB87F9229CA24C400D82618 /* Icon-3@3x.png */,
+			);
+			path = AppIcons;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -243,7 +269,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				4EB87F9529CA24C400D82618 /* Icon-2@2x.png in Resources */,
+				4EB87F9A29CA24C400D82618 /* Icon-1@3x.png in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				4EB87F9629CA24C400D82618 /* Icon-3@2x.png in Resources */,
+				4EB87F9929CA24C400D82618 /* Icon-1@2x.png in Resources */,
+				4EB87F9829CA24C400D82618 /* Icon-3@3x.png in Resources */,
+				4EB87F9729CA24C400D82618 /* Icon-2@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,7 +596,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -598,6 +630,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -635,7 +668,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -661,6 +694,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
