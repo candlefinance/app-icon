@@ -1,3 +1,7 @@
+[![npm version](https://badge.fury.io/js/%40candlefinance%2Fapp-icon.svg)](https://badge.fury.io/js/%40candlefinance%2Fapp-icon)
+
+[![Watch the video](https://user-images.githubusercontent.com/12258850/226728986-8dd2eb97-481d-4283-a494-b976ceb1e87c.png)](https://user-images.githubusercontent.com/12258850/226728492-56087703-e9ff-4e59-9b2b-7a37399b5809.mp4)
+
 Update your apps icon on iOS using Apples alternate icons [API](https://developer.apple.com/documentation/uikit/uiapplication/2806818-setalternateiconname).
 
 ## Installation
@@ -8,17 +12,18 @@ yarn add @candlefinance/app-icon
 
 ## Features
 
-- ✅ Supports the new React Native architecture
-- ✅ Simple async API
-- ✅ TypeScript support
+- Supports the new React Native architecture
+- Simple async API
+- TypeScript support
+- Mostly written in Swift
 
-## Pre-requisites
+## Prerequisites
 
-To add icons to your iOS app you need to:
+To add alternative icons to your iOS app you need to:
 
 1. Add the icons to your Xcode project, simply create a new folder and add your icons in at 2x (120 x 120) and 3x (180 x 180) sizes. See the [example app](./example/ios/AppIcons) for reference.
 
-2. Update your `Info.plist` to include the names of your icons. See the [example](./example/ios/AppIconExample/Info.plist) for reference or add the following to your `Info.plist`:
+2. Update your `Info.plist` to include the names of your icons. See the [example app](./example/ios/AppIconExample/Info.plist) for reference or add the following to your `Info.plist`:
 
 ```xml
 <key>CFBundleIcons</key>
@@ -51,7 +56,7 @@ For more info check out the this [tutorial](https://www.hackingwithswift.com/exa
 
 ## Usage
 
-Check out the (example)[./example/src/index.tsx] app for a full working example.
+Check out the [example](./example/src/index.tsx) app for a full working example.
 
 ```js
 import { getIconName, setIconName } from '@candlefinance/app-icon';
